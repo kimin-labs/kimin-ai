@@ -338,7 +338,7 @@ function loadAllConversations() {
                     "X-Title": "Kimini AI Chat"
                 },
                 body: JSON.stringify({
-                    "model": "qwen/qwen3-max-thinking",
+                    "model": "nvidia/nemotron-3-nano-30b-a3b:free",
                     "messages": messagesForAPI,
                     "temperature": 0.7,
                     "max_tokens": 1000,
@@ -716,4 +716,5 @@ document.addEventListener('keydown', (e) => {
     }
 
 });
+
 
