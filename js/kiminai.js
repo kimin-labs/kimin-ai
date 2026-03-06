@@ -8,7 +8,7 @@
         })();
 
         // === API CONFIGURATION ===
-        const API_KEY = "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";
+        const API_KEY = "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";
         const API_URL = "https://openrouter.ai/api/v1/chat/completions";
 
         // === DOM ELEMENTS ===
@@ -338,7 +338,7 @@ function loadAllConversations() {
                     "X-Title": "Kimini AI Chat"
                 },
                 body: JSON.stringify({
-                    "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+                    "model": "stepfun/step-3.5-flash:free",
                     "messages": messagesForAPI,
                     "temperature": 0.7,
                     "max_tokens": 1000,
@@ -716,5 +716,6 @@ document.addEventListener('keydown', (e) => {
     }
 
 });
+
 
 
